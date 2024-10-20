@@ -1,169 +1,121 @@
-
-
-@keyframes spin {
-    from {
-        transform:rotate(0deg);
-    }
-    to {
-        transform:rotate(360deg);
-    }
+body {
+    background-color: rgb(33, 33, 33);
 }
-
-@keyframes spin {
-    from {
-        transform:rotate(0deg);
-    }
-    to {
-        transform:rotate(360deg);
-    }
+body {
+    cursor: url('cursor.png'), auto;
 }
-
-@keyframes spin {
-    from {
-        transform:rotate(0deg);
-    }
-    to {
-        transform:rotate(360deg);
-    }
-}
-/* Firefox old*/
-
-@-moz-keyframes blink {
-    
-    0% {
-        opacity:1;
-    }
-    50% {
-        opacity:0;
-    }
-    100% {
-        opacity:1;
-    }
-} 
-
-@-webkit-keyframes blink {
-    0% {
-        opacity:1;
-    }
-    50% {
-        opacity:0;
-    }
-    100% {
-        opacity:1;
-    }
-}
-/* IE */
-@-ms-keyframes blink {
-    0% {
-        opacity:1;
-    }
-    50% {
-        opacity:0;
-    }
-    100% {
-        opacity:1;
-    }
-} 
-/* Opera and prob css3 final iteration */
-@keyframes blink {
-    0% {
-        opacity:1;
-    }
-    50% {
-        opacity:0;
-    }
-    100% {
-        opacity:1;
-    }
-} 
-.blink-image {
-    -moz-animation: blink normal 2s infinite ease-in-out; /* Firefox */
-    -webkit-animation: blink normal 2s infinite ease-in-out; /* Webkit */
-    -ms-animation: blink normal 2s infinite ease-in-out; /* IE */
-    animation: blink normal 2s infinite ease-in-out; /* Opera and prob css3 final iteration */
-}
-.center {
+.header {
     margin: auto;
-    width: 60%;
-    border: 3px solid #73AD21;
-    padding: 10px;
-  }
-  .container {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    position: fixed;
-    align-items: center;
-    justify-content: center;
-  }
+    width: 79%;
+}
+.palette {
+    margin: auto;
+    width: 80%;
+}
+.lana01 { 
+    position: relative; 
+    width: 320px;
+    left: 225px;
+    top: -735px;
+  } 
+  .lana01 img { 
+    width: 100%; 
+    height: auto; 
+    opacity: 0;
+    transition: opacity 0.2s ease; 
+  } 
+   
+  .lana01:hover img { 
+    opacity: 1; 
+  } 
 
-  .container {
-    background-color: lightgrey;
-    width: 300px;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
+  .lana02 { 
+    position: relative; 
+    width: 320px;
+    left: 533px;
+    top: -1053px;
+  } 
+  .lana02 img { 
+    width: 100%; 
+    height: auto; 
+    opacity: 0;
+    transition: opacity 0.2s ease; 
+  } 
+   
+  .lana02:hover img { 
+    opacity: 1; 
+  } 
+  .lana03 { 
+    position: relative; 
+    width: 320px;
+    left: 841px;
+    top: -1373px;
+  } 
+  .lana03 img { 
+    width: 100%; 
+    height: auto; 
+    opacity: 0;
+    transition: opacity 0.2s ease; 
+  } 
+   
+  .lana03:hover img { 
+    opacity: 1; 
+  } 
+  .lana04 { 
+    position: relative; 
+    width: 320px;
+    left: 225px;
+    top: -1373px;
+  } 
+  .lana04 img { 
+    width: 100%; 
+    height: auto; 
+    opacity: 0;
+    transition: opacity 0.2s ease; 
+  } 
+   
+  .lana04:hover img { 
+    opacity: 1; 
+  } 
+  .lana05 { 
+    position: relative; 
+    width: 320px;
+    left: 533px;
+    top: -1690px;
+  } 
+  .lana05 img { 
+    width: 100%; 
+    height: auto; 
+    opacity: 0;
+    transition: opacity 0.2s ease; 
+  } 
+   
+  .lana05:hover img { 
+    opacity: 1; 
+  } 
+  .lana06 { 
+    position: relative; 
+    width: 320px;
+    left: 841px;
+    top: -2011px;
+  } 
+  .lana06 img { 
+    width: 100%; 
+    height: auto; 
+    opacity: 0;
+    transition: opacity 0.2s ease; 
+  } 
+   
+  .lana06:hover img { 
+    opacity: 1; 
+  } 
+  .lana-big {
+    position: relative;
+    left: 200px;
+    top: -2000px;
   }
-  html, body {
-    background: #222;
+  .bio {
+    position: relative;
+    top: -2400px;
   }
-  #scroll-container {
-    border: 3px solid rgb(255, 255, 255);
-    border-radius: 5px;
-    overflow: hidden;
-  }
-  
-  #scroll-text {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-size:x-large;
-    /* animation properties */
-    -moz-transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
-    
-    -moz-animation: my-animation 15s linear infinite;
-    -webkit-animation: my-animation 15s linear infinite;
-    animation: my-animation 15s linear infinite;
-  }
-  
-  /* for Firefox */
-  @-moz-keyframes my-animation {
-    from { -moz-transform: translateX(100%); }
-    to { -moz-transform: translateX(-100%); }
-  }
-  
-  /* for Chrome */
-  @-webkit-keyframes my-animation {
-    from { -webkit-transform: translateX(100%); }
-    to { -webkit-transform: translateX(-100%); }
-  }
-  
-  @keyframes my-animation {
-    from {
-      -moz-transform: translateX(100%);
-      -webkit-transform: translateX(100%);
-      transform: translateX(100%);
-    }
-    to {
-      -moz-transform: translateX(-100%);
-      -webkit-transform: translateX(-100%);
-      transform: translateX(-100%);
-    }
-    * {
-        box-sizing: border-box;
-      }
-      
-      .column {
-        float: left;
-        width: 33.33%;
-        padding: 5px;
-      }
-      
-      /* Clearfix (clear floats) */
-      .row::after {
-        content: "";
-        clear: both;
-        display: table;
-      }  
   
