@@ -1,0 +1,37 @@
+<DOCTYPE! html>
+    <html>
+        <title>ANGEL AU</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+
+        <body>
+            <div class="bio">
+                <div><img src="bio.png" width="1100px"></div>
+            </div>
+            <div class="container" 
+            style="text-align: center; 
+                   margin-top: 5em;">
+           <img src= "angel01.png" 
+               width="800px" onclick="enlargeImg()"
+               id="img1" />
+           <br /><br /><br />
+       </div>
+       <script>
+           img = document.getElementById("img1");
+           function enlargeImg() {
+               img.style.transform = "scale(1.5)";
+               img.style.transition = "transform 0.25s ease";
+           }
+           function resetImg() {
+               img.style.transform = "scale(1)";
+               img.style.transition = "transform 0.25s ease";
+           }
+       </script>
+            <div class="header">
+                <a href="https://www.instagram.com/itsangelau/" target="_blank">
+                <div><img src="angel-header.png" width="500px"></div>
+            </a>
+            </div>
+            
+        </body>
+
+    </html>
