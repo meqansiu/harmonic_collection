@@ -1,0 +1,170 @@
+body {
+    background-color: rgb(255, 202, 253);
+}
+.jazmine01 {
+    position: relative;
+    left: 170px;
+    top: 25px;
+}
+.lip { 
+    position: relative; 
+    width: 400px;
+    top: -290px;
+  } 
+  .lip img { 
+    width: 100%; 
+    height: auto; 
+    opacity: 0;
+    transition: opacity 0.1s ease; 
+  } 
+   
+  .lip:hover img { 
+    opacity: 1; 
+  }
+.lip2 { 
+    position: relative; 
+    width: 280px;
+    top: -800px;
+    left: 70px;
+  } 
+  .lip2 img { 
+    width: 100%; 
+    height: auto; 
+    opacity: 0;
+    transition: opacity 0.1s ease; 
+  } 
+   
+  .lip2:hover img { 
+    opacity: 1; 
+  }
+.lip3 { 
+    position: relative; 
+    width: 400px;
+    top: -1250px;
+    left: 920px;
+  } 
+  .lip3 img { 
+    width: 100%; 
+    height: auto; 
+    opacity: 0;
+    transition: opacity 0.1s ease; 
+  } 
+   
+  .lip3:hover img { 
+    opacity: 1; 
+  }
+  .lip4 { 
+    position: relative; 
+    width: 500px;
+    top: -1350px;
+    left: 920px;
+  } 
+  .lip4 img { 
+    width: 100%; 
+    height: auto; 
+    opacity: 0;
+    transition: opacity 0.1s ease; 
+  } 
+   
+  .lip4:hover img { 
+    opacity: 1; 
+  }
+  .lip5 { 
+    position: relative; 
+    width: 300px;
+    top: -1670px;
+    left: 750px;
+  } 
+  .lip5 img { 
+    width: 100%; 
+    height: auto; 
+    opacity: 0;
+    transition: opacity 0.1s ease; 
+  } 
+   
+  .lip5:hover img { 
+    opacity: 1; 
+  }
+  .lip6 { 
+    position: relative; 
+    width: 400px;
+    top: -2400px;
+    left: 270px;
+  } 
+  .lip6 img { 
+    width: 100%; 
+    height: auto; 
+    opacity: 0;
+    transition: opacity 0.1s ease; 
+  } 
+   
+  .lip6:hover img { 
+    opacity: 1; 
+  }
+  .header {
+    position: relative;
+    top: -2600px;
+  }
+  .image {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+.imageTwo {
+    z-index: 1;
+    left: 100px;
+    bottom: 5150px;
+    .pop{
+        width: 1200px;
+      }
+        .pop:active{
+        position:relative;
+        right: 55px;
+        bottom: 300px;
+        width: 2000px;
+        }
+}
+
+.image01 {
+width: 800px;
+position: relative;
+left: 50px;
+bottom: 1400px;
+}
+
+.image02 {
+width: 800px;
+position: relative;
+left: -100px;
+bottom: 1750px;
+}
+
+.image03 {
+width: 800px;
+position: relative;
+left: 430px;
+bottom: 2300px;
+}
+
+.NEW-YORK {
+position: relative;
+font-size: 40px;
+bottom: 4900px;
+left: 810px;
+color: #83003c;
+}
+.HEADLINING {
+position: relative;
+font-size: 40px;
+bottom: 4900px;
+left: 800px;
+color: #83003c;
+}
+
+.QUEEN {
+position: relative;
+font-size: 40px;
+bottom: 4900px;
+left: 850px;
+color: #83003c;
+}
